@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     var resultToDisplay = String()
     
     // Propriété tableau de type CDC contenant des noms: arrOfNames
-    let arrOfNames = ["Armand", "Bart", "Annie", "Caro", "Alain", "Brad"]
+    let arrFra = ["Sapin de Noël", "Dinde", "Bonhomme de neige", "Neige"]
+    let arrEng = ["Christmas Tree", "Turkey", "Snowman"]
+    var dictOfWinter: [String: String]
     
     // Propriété Propriété de type Dictionnaire pour organiser les noms selon la première lettre
     var namesByAlphabet = [String.Element: [String]]()
